@@ -1,6 +1,6 @@
-# healthymama-site
+# babymama-site
 
-Public legal pages for the HealthyMama iOS app.
+Public legal pages for the BabyMama iOS app.
 
 - `index.html` — landing
 - `privacy.html` — privacy policy
@@ -10,5 +10,5 @@ Public legal pages for the HealthyMama iOS app.
 
 Hosted via GitHub Pages from `main` branch.
 
-App: https://github.com/IamHamud/HealthyMama
+App: https://github.com/IamHamud/BabyMama
 Contact: mohdabdulhakim.313@gmail.com
