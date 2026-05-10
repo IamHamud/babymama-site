@@ -22,10 +22,9 @@
   <p>Everything you create inside HealthyMama lives in your phone's private storage:</p>
   <ul>
     <li>Journal entries, photos and voice notes</li>
-    <li>Daily mood check-ins</li>
-    <li>Nutrition logs from the food scanner</li>
+    <li>Daily mood check-ins and reflections</li>
     <li>Your name, due date and stage</li>
-    <li>Apple Health data we read with your permission (read-only — we never write to Health)</li>
+    <li>Apple Health data we read with your permission (read-only — we never write health metrics back)</li>
   </ul>
   <p>We do not have a server that mirrors any of this. There is no HealthyMama account.</p>
 
@@ -33,8 +32,11 @@
   <ul>
     <li><strong>Backups.</strong> When you tap <em>Export full backup</em>, a single file is generated for you to share or save (iCloud, AirDrop, Files). You decide where it goes.</li>
     <li><strong>PDF journal.</strong> When you tap <em>Export Journal as PDF</em>, the same applies.</li>
-    <li><strong>AI nutrition.</strong> The food scanner first tries Apple Intelligence (on-device). If the device doesn't support it, the food <em>name you typed</em> is sent to a backend that proxies a third-party language model and returns nutrition estimates. The food name and the resulting estimates are not stored on the server.</li>
+    <li><strong>Mindful minutes.</strong> If you opt in to Apple Health write-back, only the duration of meditation/breathing sessions you complete is saved to your local Apple Health database. Nothing leaves the phone.</li>
   </ul>
+
+  <h2>On-device AI</h2>
+  <p>HealthyMama uses Apple's <strong>FoundationModels</strong> framework to generate gentle reflections (e.g. "Your week looked tender…"). This runs entirely on your iPhone via Apple Intelligence. No prompt or response ever leaves your device. If your iPhone doesn't support Apple Intelligence, the AI features simply do not appear.</p>
 
   <h2>What we never do</h2>
   <ul>
@@ -42,15 +44,15 @@
     <li>We do not run ads.</li>
     <li>We do not sell, rent or trade any data.</li>
     <li>We do not collect analytics, crash data or device identifiers.</li>
+    <li>We do not use any third-party SDKs.</li>
   </ul>
 
   <h2>Permissions we ask for</h2>
   <ul>
-    <li><strong>Camera</strong> — to take meal photos in the food scanner.</li>
-    <li><strong>Photos</strong> — to attach a meal photo from your library.</li>
+    <li><strong>Photos</strong> — to attach a photo to a journal entry, and to personalize your Home backdrop.</li>
     <li><strong>Microphone</strong> — to record a voice note in the journal.</li>
-    <li><strong>Notifications</strong> — for the morning check-in and reminders, only if you turn them on.</li>
-    <li><strong>Apple Health</strong> — read-only access to steps, sleep and resting heart rate, only if you connect it.</li>
+    <li><strong>Notifications</strong> — for the morning check-in and gentle nudges, only if you turn them on. All notifications are scheduled locally on your device.</li>
+    <li><strong>Apple Health</strong> — read-only access to steps, sleep and resting heart rate, only if you connect it. Optional write access for mindful minutes.</li>
     <li><strong>Reminders</strong> — to mirror gentle nudges into a "HealthyMama" list, only if you turn it on. Only generic titles are written, never your journal text.</li>
   </ul>
 
