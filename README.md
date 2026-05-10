@@ -11,4 +11,4 @@ Public legal pages for the HealthyMama iOS app.
 Hosted via GitHub Pages from `main` branch.
 
 App: https://github.com/IamHamud/HealthyMama
-Contact: hamud313@gmail.com
+Contact: mohdabdulhakim.313@gmail.com
