@@ -1,4 +1,4 @@
-# babymama-site
+# babymama-site.
 
 Public legal pages for the BabyMama iOS app.
 
